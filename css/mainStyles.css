@@ -4,6 +4,8 @@ h1, h2, h3, h4, h5, h6{
 	line-height: 1.25;
 	text-transform: uppercase; 
 }
+a { color: #ff9900; }
+a:hover { color: #ff5900; }
 body{ word-wrap: break-word; }
 header, footer { background: #424242; }
 /* ===== Navbar Styles ===== */
@@ -22,7 +24,10 @@ footer .copyright .content-block p { margin-bottom: 0; }
 
 
 /* ===== Page Styles ===== */
-.landing-bg .content-block{ min-height: 90vh; }
+.landing-bg .content-block{ 
+	background: url('../img/HomeBanner.png') no-repeat right center;
+	min-height: 90vh; 
+}
 .contact-details .content-block { width: 800px; }
 
 /* ===== Button Styles ===== */
@@ -38,9 +43,6 @@ footer .copyright .content-block p { margin-bottom: 0; }
 
 /* ===== Spacing Styles ===== */
 .empty-block { min-width: 30px; height: 30px; }
-
-
-
 .container .rows .col img{
 	display: block;
 	height:144px;

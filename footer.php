@@ -7,7 +7,7 @@
                         <div class="col-9">
                             <h2>We could be you next tech partner</h2>
                             <p>Then, click on the button below to send us a message and let's get started in building a great app, tailored to your business need.</p>
-                            <a class="btn btn-primary">Contact Us</a>
+                            <a class="btn btn-primary" href="contact.php">Contact Us</a>
                         </div>
                         <div class="col">
                             <img src="" />
