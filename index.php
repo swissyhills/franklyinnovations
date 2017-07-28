@@ -20,20 +20,19 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="img/Ref/InterfaceDesign.png">
-                    <h5>Interface Design</h5>
-                    <a class="btn btn-secondary">Explore</a>
+                    <img src="img/ico-Design.png">
+                    <h5>UX & UI Design</h5>
+                    <a class="btn btn-secondary" href="services_design.php">Explore</a>
                 </div>
                 <div class="col">
-                    <img src="img/Ref/mobileapps.jpg" class="img-circle" alt="Cinque Terre" width="259" height="144">
-                    
+                    <img src="img/ico-mobile-apps.png" class="img-circle" alt="Cinque Terre">
                     <h5>Mobile Apps</h5>
-                    <a class="btn btn-secondary">Explore</a>
+                    <a class="btn btn-secondary" href="services_mobileapps.php">Explore</a>
                 </div>
                 <div class="col">
-                    <img src="img/Ref/enterpriceapps.png" class="img-circle" alt="Cinque Terre" width="259" height="144">
+                    <img src="img/ico-enterprise-apps.png" class="img-circle" alt="Cinque Terre">
                     <h5>Enterprise Apps</h5>
-                    <a class="btn btn-secondary">Explore</a>
+                    <a class="btn btn-secondary" href="services_enterpriseapps.php">Explore</a>
                 </div>
             </div>
         </div>
@@ -41,36 +40,38 @@
 </section><!-- end of SERVICES -->
 <section>
     <div class="content-block text-center">
-        <div>
-            <h2>Solutions we built!</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="img/solution-1.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/solution-2.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block img-fluid" src="img/solution-3.jpg" alt="Third slide">
-                </div>
+        <div class="container">
+            <div>
+                <h2>Solutions we built!</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="img/solution-1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="img/solution-2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="img/solution-3.jpg" alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
     </div>
 </section><!-- end of SOLUTIONS -->
