@@ -1,0 +1,24 @@
+{
+  "name": "franklyinnovations",
+  "version": "1.0.0",
+  "description": "Open platform for freelance",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swissyhills/franklyinnovations.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swissyhills/franklyinnovations/issues"
+  },
+  "homepage": "https://github.com/swissyhills/franklyinnovations#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

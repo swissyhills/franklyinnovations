@@ -1,0 +1,97 @@
+/* ===== Typography Styles ===== */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  line-height: 1.25;
+  text-transform: uppercase; }
+
+a {
+  color: #ff9900; }
+
+a:hover {
+  color: #ff5900; }
+
+body {
+  word-wrap: break-word; }
+
+header, footer {
+  background: #424242; }
+
+/* ===== Navbar Styles ===== */
+.navbar {
+  background: #424242; }
+
+.navbar a {
+  font-weight: 600;
+  text-transform: uppercase; }
+
+/* ===== Body Styles ===== */
+.navbar-inverse .navbar-nav .active > .nav-link {
+  color: #ff9900; }
+
+.first-block {
+  margin-top: 80px; }
+
+.content-block {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0; }
+
+.col img {
+  margin-bottom: 10px; }
+
+.col h5 {
+  margin-bottom: 20px; }
+
+footer .copyright .content-block {
+  color: white;
+  padding: 20px 0;
+  text-align: center; }
+
+footer .copyright .content-block p {
+  margin-bottom: 0; }
+
+/* ===== Page Styles ===== */
+.landing-bg .content-block {
+  background: url("../img/HomeBanner.png") no-repeat right center;
+  min-height: 90vh; }
+
+.contact-details .content-block {
+  width: 800px; }
+
+/* ===== Button Styles ===== */
+.btn {
+  cursor: pointer; }
+
+.text-center .btn .btn-secondary {
+  margin: 0 auto; }
+
+/* ===== Background Classes ===== */
+.yellow-bg {
+  background: #ff9900; }
+
+.grey-bg {
+  background: #f5f5f5; }
+
+.black-bg {
+  background: #212121;
+  color: white; }
+
+nt-block {
+  width: 960px; }
+
+/* ===== Spacing Styles ===== */
+.empty-block {
+  min-width: 30px;
+  height: 30px; }
+
+.container .rows .col img {
+  display: block;
+  height: 144px;
+  width: 259px; }
+
+/* ===== Content Width in smaller devices ===== */
+@media (max-width: 1200px) {
+  .content-block {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 10px; } }
